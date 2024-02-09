@@ -24,12 +24,7 @@
             <a-asset-item id="scene" src="./assets/scenerota.gltf"></a-asset-item>
         </a-assets>
         <a-marker preset="hiro">
-            <a-light id="dirlight"
-                light="type: spot; castShadow:true; color: white; intensity: .1 castShadow:true; angle: 55; penumbra: 0.1; decay: .1"
-                rotation="0 0 0" position="-1.7 .5 3"></a-light>
-            <a-light id="dirlight"
-                light="type: spot; castShadow:true; color: white; intensity: .1 castShadow:true; angle: 55; penumbra: 0.1; decay: .1"
-                rotation="0 90 0" position="4 .5 -3.8"></a-light>
+            
             <a-entity shadow="receive: true" scale="0.5 0.5 0.5" gltf-model="#scene"></a-entity>
         </a-marker>
         <a-entity camera position="0 0 10"></a-entity>
